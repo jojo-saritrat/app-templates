@@ -47,7 +47,7 @@ Before running your first Python program, make sure you have **Python** installe
 To run your Python "Hello, World!" program, follow these steps:
 
 1. **Navigate to the Project Folder:**
-   Open a terminal (or Command Prompt) and go to the directory where your `hello.py` file is located:
+   Open a terminal (or Command Prompt) and go to the directory where your `main.py` file is located:
    ```bash
    cd path/to/your/project
     ```
