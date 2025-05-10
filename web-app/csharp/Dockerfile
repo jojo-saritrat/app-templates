@@ -4,11 +4,11 @@ FROM bitnami/dotnet-sdk:8.0.407 as build
 WORKDIR /app
 
 # Copy csproj and restore
-COPY *.csproj ./
+COPY *.csproj .
 RUN dotnet restore
 
 # Copy rest of the code and publish
-COPY . ./
+COPY . .
 RUN dotnet publish -c Release -o out
 
 # Runtime stage — use same image or aspnet-only image if needed
